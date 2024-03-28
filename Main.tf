@@ -1,9 +1,8 @@
 provider "aws" {
   region = "eu-west-2" # London region
 }
-
 resource "aws_s3_bucket" "billybucket2133" {
-  bucket = "billybucket2133"
+  # Bucket configuration attributes
 }
 terraform {
   backend "s3" {
